@@ -14,5 +14,12 @@ namespace pr1
         public string Firm;
         public string Type;
         public float Diagonal;
+
+        public MonitorClass(string firm, string type, float diagonal)
+        {
+            Firm = firm;
+            Type = type;
+            Diagonal = diagonal;
+        }
     }
 }
