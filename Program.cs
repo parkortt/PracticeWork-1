@@ -9,4 +9,10 @@ namespace pr1
 
         }
     }
+    class MonitorClass
+    {
+        public string Firm;
+        public string Type;
+        public float Diagonal;
+    }
 }
