@@ -6,7 +6,18 @@ namespace pr1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Введите фирму: ");
+            string firm = Console.ReadLine();
 
+            Console.WriteLine("Введите тип: ");
+            string type = Console.ReadLine();
+
+            Console.WriteLine("Введите диагональ: ");
+            float diagonal = (float)Convert.ToDouble(Console.ReadLine());
+
+            MonitorClass MC = new(firm, type, diagonal);
+
+            Console.WriteLine(MC.Firm + " " + MC.Type + " " + MC.Diagonal);
         }
     }
     class MonitorClass
